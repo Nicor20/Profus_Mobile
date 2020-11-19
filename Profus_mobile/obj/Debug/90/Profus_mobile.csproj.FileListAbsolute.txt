@@ -270,3 +270,5 @@ C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\android\src\crc6
 C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\android\src\crc647c4441a42b754995\Inscription.java
 C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\android\src\crc647c4441a42b754995\Leaderboard.java
 C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\android\src\crc647c4441a42b754995\Parametre.java
+C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\res\layout\montrer_carte.xml
+C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\android\src\crc647c4441a42b754995\Montrer_Carte.java

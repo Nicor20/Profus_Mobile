@@ -52,4 +52,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Bouton_Score" />
+    <Button
+        android:text="Quitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Bouton_Quitter" />
 </LinearLayout>

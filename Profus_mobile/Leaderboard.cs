@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace Profus_mobile
 {
-    [Activity(Label = "Leaderboard")]
+    [Activity(Label = "Leaderboard", NoHistory = true)]
     public class Leaderboard : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

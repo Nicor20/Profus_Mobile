@@ -8,7 +8,7 @@ using Android.Content;
 
 namespace Profus_mobile
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true, NoHistory = true)]
     public class MainActivity : AppCompatActivity
     {
         int Nb_joueur;
@@ -27,6 +27,7 @@ namespace Profus_mobile
             FindViewById<Button>(Resource.Id.Bouton_Parametre).Click += this.Parametre;
             FindViewById<Button>(Resource.Id.Bouton_Inscription).Click += this.Inscription;
             FindViewById<Button>(Resource.Id.Bouton_Score).Click += this.Score;
+            FindViewById<Button>(Resource.Id.Bouton_Quitter).Click += this.Quitter;
             #endregion
 
             #region Initialisation spinner
@@ -74,6 +75,11 @@ namespace Profus_mobile
         void Score(object sender, System.EventArgs e)
         {
             StartActivity(new Intent(this, typeof(Leaderboard)));
+        }
+
+        void Quitter(object sender, System.EventArgs e)
+        {
+            Android.OS.Process.KillProcess(Android.OS.Process.MyPid());
         }
         #endregion
 
