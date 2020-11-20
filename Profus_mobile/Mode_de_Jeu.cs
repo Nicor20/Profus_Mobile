@@ -18,7 +18,7 @@ namespace Profus_mobile
     public class Mode_de_Jeu : Activity
     {
         public static int Nb_joueur;
-        TextView Titre;
+        //TextView Titre;
         List<String> List_Mode = new List<string>();
 
         protected override void OnCreate(Bundle savedInstanceState)

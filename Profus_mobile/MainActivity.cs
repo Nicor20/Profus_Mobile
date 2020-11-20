@@ -9,6 +9,7 @@ using Android.Content;
 namespace Profus_mobile
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true, NoHistory = true)]
+
     public class MainActivity : AppCompatActivity
     {
         int Nb_joueur;
@@ -39,6 +40,34 @@ namespace Profus_mobile
             spinner.Adapter = adapter;
             #endregion
 
+
+            #region
+            //8 space
+            //7 autre 2x plus haute que space
+
+            int hauteur = FindViewById<LinearLayout>(Resource.Id.linearLayout1).Height;
+            int largeur = FindViewById<LinearLayout>(Resource.Id.linearLayout2).Width;
+
+            FindViewById<Space>(Resource.Id.space1).SetMinimumHeight(hauteur / 22);
+            FindViewById<Space>(Resource.Id.space2).SetMinimumHeight(hauteur / 22);
+            FindViewById<Space>(Resource.Id.space3).SetMinimumHeight(hauteur / 22);
+            FindViewById<Space>(Resource.Id.space4).SetMinimumHeight(hauteur / 22);
+            FindViewById<Space>(Resource.Id.space5).SetMinimumHeight(hauteur / 22);
+            FindViewById<Space>(Resource.Id.space6).SetMinimumHeight(hauteur / 22);
+            FindViewById<Space>(Resource.Id.space7).SetMinimumHeight(hauteur / 22);
+            FindViewById<Space>(Resource.Id.space8).SetMinimumHeight(hauteur / 22);
+
+            FindViewById<LinearLayout>(Resource.Id.linearLayout2).SetMinimumHeight(hauteur / 11);
+            FindViewById<Button>(Resource.Id.Bouton_Jouer).SetMinimumHeight(hauteur / 11);
+            FindViewById<Button>(Resource.Id.Bouton_Info).SetMinimumHeight(hauteur / 11);
+            FindViewById<Button>(Resource.Id.Bouton_Parametre).SetMinimumHeight(hauteur / 11);
+            FindViewById<Button>(Resource.Id.Bouton_Inscription).SetMinimumHeight(hauteur / 11);
+            FindViewById<Button>(Resource.Id.Bouton_Score).SetMinimumHeight(hauteur / 11);
+            FindViewById<Button>(Resource.Id.Bouton_Quitter).SetMinimumHeight(hauteur / 11);
+
+            FindViewById<TextView>(Resource.Id.textView1).SetMinimumWidth(largeur / 2);
+            FindViewById<Spinner>(Resource.Id.spinner).SetMinimumWidth(largeur / 2);
+            #endregion
 
         }
 

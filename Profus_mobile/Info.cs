@@ -11,9 +11,9 @@ using Android.Widget;
 
 namespace Profus_mobile
 {
-    [Activity(Label = "Info", NoHistory = true)]
+    [Activity(Label = "@string/app_name",Name = "Info", Theme = "@style/AppTheme", MainLauncher = false, NoHistory = true)]
     public class Info : Activity
-    {
+    {        
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
