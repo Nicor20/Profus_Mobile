@@ -66,7 +66,6 @@
     <Compile Include="Leaderboard.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Mode_de_Jeu.cs" />
-    <Compile Include="Montrer_Carte.cs" />
     <Compile Include="Parametre.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -137,11 +136,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Leaderboard.xml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\Montrer_Carte.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

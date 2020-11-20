@@ -82,6 +82,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Bouton_Score" />
+<<<<<<< HEAD
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -98,4 +99,6 @@
         android:id="@+id/space8"
         android:minHeight = "22.0dp" />
 
+=======
+>>>>>>> parent of 33b27d6... 1.1.1
 </LinearLayout>

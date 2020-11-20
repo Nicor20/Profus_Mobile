@@ -11,7 +11,11 @@ using Android.Widget;
 
 namespace Profus_mobile
 {
+<<<<<<< HEAD
     [Activity(Label = "@string/app_name",Name = "Info", Theme = "@style/AppTheme", MainLauncher = false, NoHistory = true)]
+=======
+    [Activity(Label = "Info")]
+>>>>>>> parent of 33b27d6... 1.1.1
     public class Info : Activity
     {        
         protected override void OnCreate(Bundle savedInstanceState)

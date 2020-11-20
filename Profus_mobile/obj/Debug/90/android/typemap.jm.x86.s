@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 	/* Data Hash: 6813EFBD14B3A6B9 */
+=======
+	/* Data Hash: 0C4676ED6B70034E */
+>>>>>>> parent of 33b27d6... 1.1.1
 	.file	"typemap.jm.inc"
 
 	/* Mapping header */
@@ -10,7 +14,11 @@ jm_typemap_header:
 	/* version */
 	.long	1
 	/* entry-count */
+<<<<<<< HEAD
 	.long	1041
+=======
+	.long	1039
+>>>>>>> parent of 33b27d6... 1.1.1
 	/* entry-length */
 	.long	262
 	/* value-offset */
@@ -21,5 +29,9 @@ jm_typemap_header:
 	.type	jm_typemap, @object
 	.global	jm_typemap
 jm_typemap:
+<<<<<<< HEAD
 	.size	jm_typemap, 272743
+=======
+	.size	jm_typemap, 272219
+>>>>>>> parent of 33b27d6... 1.1.1
 	.include	"typemap.jm.inc"

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 	/* Data Hash: 0CEF0344EBD5F3E3 */
+=======
+	/* Data Hash: DD92583CC5D7650C */
+>>>>>>> parent of 33b27d6... 1.1.1
 	.file	"typemap.mj.inc"
 
 	/* Mapping header */
@@ -10,7 +14,11 @@ mj_typemap_header:
 	/* version */
 	.long	1
 	/* entry-count */
+<<<<<<< HEAD
 	.long	1154
+=======
+	.long	1152
+>>>>>>> parent of 33b27d6... 1.1.1
 	/* entry-length */
 	.long	262
 	/* value-offset */
@@ -21,5 +29,9 @@ mj_typemap_header:
 	.type	mj_typemap, @object
 	.global	mj_typemap
 mj_typemap:
+<<<<<<< HEAD
 	.size	mj_typemap, 302349
+=======
+	.size	mj_typemap, 301825
+>>>>>>> parent of 33b27d6... 1.1.1
 	.include	"typemap.mj.inc"

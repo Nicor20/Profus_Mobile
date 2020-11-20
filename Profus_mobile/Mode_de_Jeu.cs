@@ -14,12 +14,16 @@ using static Android.App.ActionBar;
 namespace Profus_mobile
 {
 
-    [Activity(Label = "Mode de Jeu", NoHistory = true)]
+    [Activity(Label = "Mode de Jeu")]
     public class Mode_de_Jeu : Activity
     {
         public static int Nb_joueur;
+<<<<<<< HEAD
         //TextView Titre;
         List<String> List_Mode = new List<string>();
+=======
+        TextView Titre;
+>>>>>>> parent of 33b27d6... 1.1.1
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -29,37 +33,16 @@ namespace Profus_mobile
             SetContentView(Resource.Layout.Mode_de_Jeu);
 
             // Create your application here
+            Titre = FindViewById<TextView>(Resource.Id.textView1);
+            Titre.Text = Nb_joueur.ToString();
 
-            //Chrono
-            //Par catégorie
-            //Jusqu'a la mort
-            //
+
             LinearLayout layout = FindViewById<LinearLayout>(Resource.Id.Linear_Layout_Button_MJ);
             LayoutParams lp = new LayoutParams(LayoutParams.MatchParent, LayoutParams.WrapContent);
-            if(Nb_joueur == 1)
-            {
-                List_Mode.Clear();
-                List_Mode.Add("Chrono");
-                List_Mode.Add("Par Catégorie");
-                List_Mode.Add("Jusqu'a la mort");
-                List_Mode.Add("Retour");
-            }
-            else if(Nb_joueur == 2)
-            {
-                List_Mode.Clear();
-                List_Mode.Add("Retour");
-            }
-            else
-            {
-                List_Mode.Clear();
-                List_Mode.Add("Retour");
-            }
-
-
-            foreach(var list in List_Mode)
+            for(int i = 1;i<=Nb_joueur;i++)
             {
                 Button button = new Button(this);
-                button.Text = list;
+                button.Text = "Bouton #" + i;
                 button.Click += new EventHandler(this.Button_Click);
                 layout.AddView(button, lp);
             }
@@ -68,26 +51,7 @@ namespace Profus_mobile
         void Button_Click(object sender,EventArgs e)
         {
             Button btn = sender as Button;
-            if(btn.Text == "Retour")
-            {
-                //Quitter
-                StartActivity(new Intent(this, typeof(MainActivity)));
-            }
-            else
-            {
-                Montrer_Carte.Mode_Jeu = btn.Text;
-                Montrer_Carte.NB_joueur = Nb_joueur;
-                StartActivity(new Intent(this, typeof(Montrer_Carte)));
-            }
-            
-            
-
-
-
-
-
-
-
+            Titre.Text = btn.Text;
         }
     }
 }

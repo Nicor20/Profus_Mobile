@@ -258,6 +258,7 @@ C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\android\src\crc6
 C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\android\src\crc647c4441a42b754995\Inscription.java
 C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\android\src\crc647c4441a42b754995\Leaderboard.java
 C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\android\src\crc647c4441a42b754995\Parametre.java
+<<<<<<< HEAD
 C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\res\layout\montrer_carte.xml
 C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\android\src\crc647c4441a42b754995\Montrer_Carte.java
 C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\flata\93D0A84BE563F790.stamp
@@ -294,3 +295,5 @@ C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\android\assets\S
 C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\android\assets\System.Xml.Linq.dll
 C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\android\assets\System.Xml.Linq.pdb
 C:\Users\canti\Desktop\Profus_Mobile\Profus_mobile\obj\Debug\90\android\src\crc647c4441a42b754995\Database_manager.java
+=======
+>>>>>>> parent of 33b27d6... 1.1.1
