@@ -12,6 +12,7 @@ using Android.Widget;
 
 namespace Profus_mobile
 {
+    [Activity(Label = "Inscription")]
     public class Inscription : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
